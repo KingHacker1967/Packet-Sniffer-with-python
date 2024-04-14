@@ -16,4 +16,18 @@ The packet sniffer can be run on any system with Python installed. Once the pack
 
 This project is useful for network administrators, security researchers, and anyone interested in network analysis. It provides a simple and flexible way to capture and analyze network traffic.
 
-**Note**: This project is intended for educational and research purposes. Please ensure you have the necessary permissions before capturing network traffic. Unauthorized network sniffing can be illegal and unethical. Always respect privacy and use responsibly.# Packet-Sniffer-with-python
+**Note**: This project is intended for educational and research purposes. Please ensure you have the necessary permissions before capturing network traffic. Unauthorized network sniffing can be illegal and unethical. Always respect privacy and use responsibly.
+
+Make sure you gave correct paths for all files included in zeek script
+
+You can modify the zeek script by adding more protocols and rules which are compatable to your network
+
+## About Zeek
+
+Zeek, formerly known as Bro, is a powerful network analysis framework. It is not restricted to any particular detection approach and is highly stateful, keeping extensive application-layer state about the network it monitors. This makes Zeek a powerful tool for deep network analysis.
+
+## Learning Zeek
+
+If you're new to Zeek and would like to learn more about it, here are some resources that might help:
+
+- **Zeek Documentation**: The official [Zeek documentation](https://github.com/zeek/zeek) is a great place to start. It provides a comprehensive overview of Zeek's capabilities and how to use them.
