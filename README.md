@@ -18,6 +18,8 @@ This project is useful for network administrators, security researchers, and any
 
 **Note**: This project is intended for educational and research purposes. Please ensure you have the necessary permissions before capturing network traffic. Unauthorized network sniffing can be illegal and unethical. Always respect privacy and use responsibly.
 
+## Cautions
+
 Make sure you gave correct paths for all files included in zeek script
 
 You can modify the zeek script by adding more protocols and rules which are compatable to your network
