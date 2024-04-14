@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	x509
+#open	2024-04-14-23-36-06
+#fields	ts	fingerprint	certificate.version	certificate.serial	certificate.subject	certificate.issuer	certificate.not_valid_before	certificate.not_valid_after	certificate.key_alg	certificate.sig_alg	certificate.key_type	certificate.key_length	certificate.exponent	certificate.curve	san.dns	san.uri	san.email	san.ip	basic_constraints.ca	basic_constraints.path_len	host_cert	client_cert
+#types	time	string	count	string	string	string	time	time	string	string	string	count	string	string	vector[string]	vector[string]	vector[string]	vector[addr]	bool	count	bool	bool
+1713116761.685798	21300ad54b1cecac4e399e0f0c4b09802f97df265f1d0e58521308a4a805e343	3	33001FA94848E0E4FFE88BD6440000001FA948	CN=*.exp-tas.com,O=Microsoft Corporation,L=Redmond,ST=WA,C=US	CN=Microsoft Azure RSA TLS Issuing CA 08,O=Microsoft Corporation,C=US	1710264693.000000	1741368693.000000	rsaEncryption	sha384WithRSAEncryption	rsa	2048	65537	-	*.exp-tas.com	-	-	-	F	-	T	F
+1713116761.685798	511c1c41cb7eb2a10078c32c82f17925ba786de46c633921d038e7409e15a5ea	3	0EFB7E547EDF0FF1069AEE57696D7BA0	CN=Microsoft Azure RSA TLS Issuing CA 08,O=Microsoft Corporation,C=US	CN=DigiCert Global Root G2,OU=www.digicert.com,O=DigiCert Inc,C=US	1686162600.000000	1787682599.000000	rsaEncryption	sha384WithRSAEncryption	rsa	4096	65537	-	-	-	-	-	T	0	F	F
+#close	2024-04-14-23-36-06

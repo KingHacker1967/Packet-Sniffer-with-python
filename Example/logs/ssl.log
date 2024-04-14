@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2024-04-14-23-36-06
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	curve	server_name	resumed	last_alert	next_protocol	established	ssl_history	cert_chain_fps	client_cert_chain_fps	sni_matches_cert
+#types	time	string	addr	port	addr	port	string	string	string	string	bool	string	string	bool	string	vector[string]	vector[string]	bool
+1713116740.922406	Cq5IQV1pJttAd8bw2g	192.168.118.196	43790	140.82.112.21	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	copilot-telemetry.githubusercontent.com	F	-	-	F	Csi	-	-	-
+1713116761.685798	C06EXz4u2hJ80ogHc3	192.168.118.196	47510	13.107.5.93	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384	secp384r1	default.exp-tas.com	F	-	http/1.1	T	CsxknGIti	21300ad54b1cecac4e399e0f0c4b09802f97df265f1d0e58521308a4a805e343,511c1c41cb7eb2a10078c32c82f17925ba786de46c633921d038e7409e15a5ea	(empty)	T
+1713116762.588786	C3Hbn133k4wr26SiVc	192.168.118.196	46166	140.82.114.22	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	api.githubcopilot.com	F	-	-	T	CsiI	-	-	-
+1713116780.610276	C8TlvX1AMWH97jWTE2	192.168.118.196	39304	140.82.114.21	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	copilot-telemetry.githubusercontent.com	F	-	-	T	CsiI	-	-	-
+1713116780.610276	CWNPDa2uFX8VGHYUu8	192.168.118.196	37644	104.46.162.227	443	TLSv13	TLS_AES_256_GCM_SHA384	secp384r1	mobile.events.data.microsoft.com	F	-	-	T	CjiICs	-	-	-
+1713116782.914067	CQtCfi4y6aeglmEtc	192.168.118.196	36872	51.116.246.106	443	TLSv13	TLS_AES_256_GCM_SHA384	secp384r1	mobile.events.data.microsoft.com	F	-	-	T	CjiICs	-	-	-
+1713116785.822419	CawEkw3pWEqh7Bq8p7	192.168.118.196	57674	140.82.114.22	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	copilot-telemetry.githubusercontent.com	F	-	-	T	CsiI	-	-	-
+1713116796.280823	C83PzolyBSBiUolc6	192.168.118.196	53772	140.82.114.21	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	copilot-telemetry.githubusercontent.com	F	-	-	T	CsiI	-	-	-
+1713116812.352818	ChKbqz2XRZ5zgNSGPb	192.168.118.196	50178	13.107.5.93	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384	secp384r1	default.exp-tas.com	F	-	http/1.1	T	CsxknGIti	21300ad54b1cecac4e399e0f0c4b09802f97df265f1d0e58521308a4a805e343,511c1c41cb7eb2a10078c32c82f17925ba786de46c633921d038e7409e15a5ea	(empty)	T
+1713116826.677358	CyR06G3RDWpCMqIKD8	192.168.118.196	43958	140.82.114.22	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	copilot-telemetry.githubusercontent.com	F	-	-	T	CsiI	-	-	-
+1713116771.299445	ClXO6M2s6518m5vmk6	2409:40f4:af:2544:f563:deab:3298:3427	40658	2600:1901:1:c36::	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	spclient.wg.spotify.com	T	-	-	F	Cs	-	-	-
+1713116832.653947	CkgUDXsadltwsWEW3	192.168.118.196	43970	140.82.114.22	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	copilot-telemetry.githubusercontent.com	F	-	-	T	CsiI	-	-	-
+1713116832.653947	C9E3dJW9NJumSPuu1	192.168.118.196	48460	52.182.141.63	443	TLSv13	TLS_AES_256_GCM_SHA384	secp384r1	mobile.events.data.microsoft.com	F	-	-	T	CjiICs	-	-	-
+1713116834.532826	Cuq6uG2pPQZ1TFYQTa	192.168.118.196	36088	52.182.143.208	443	TLSv13	TLS_AES_256_GCM_SHA384	secp384r1	mobile.events.data.microsoft.com	F	-	-	T	CjiICs	-	-	-
+1713116844.181283	CNctxH9a8zfUXJ3Q8	192.168.118.196	43390	140.82.114.21	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	copilot-telemetry.githubusercontent.com	F	-	-	T	CsiI	-	-	-
+1713116847.717205	CHLBA04BQ19trFD5u7	192.168.118.196	40698	140.82.113.22	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	copilot-telemetry.githubusercontent.com	F	-	-	T	CsiI	-	-	-
+#close	2024-04-14-23-36-06

@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	reporter
+#open	2024-04-14-23-36-06
+#fields	ts	level	message	location
+#types	time	enum	string	string
+1713117966.545216	Reporter::INFO	Overwriting packet analyzer mapping   0x8847 => MPLS with MPLS	(empty)
+1713117966.545284	Reporter::INFO	Overwriting packet analyzer mapping    0x800 => IP with IP	(empty)
+1713117966.545303	Reporter::INFO	Overwriting packet analyzer mapping   0x86dd => IP with IP	(empty)
+1713117966.545341	Reporter::INFO	Overwriting packet analyzer mapping      0x6 => TCP with TCP	(empty)
+1713117966.545352	Reporter::INFO	Overwriting packet analyzer mapping     0x11 => UDP with UDP	(empty)
+1713117966.545366	Reporter::INFO	Overwriting packet analyzer mapping      0x1 => ICMP with ICMP	(empty)
+#close	2024-04-14-23-36-06

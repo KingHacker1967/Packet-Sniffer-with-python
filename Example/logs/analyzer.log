@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	analyzer
+#open	2024-04-14-22-42-52
+#fields	ts	cause	analyzer_kind	analyzer_name	uid	fuid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	failure_reason	failure_data
+#types	time	string	string	string	string	string	addr	port	addr	port	string	string
+1429576915.853780	violation	protocol	HTTP	CATPLi2DNUzFcldcL4	-	10.0.1.4	51358	46.43.34.31	80	no expected look-ahead token found (/usr/local/zeek/var/lib/zkg/clones/package/spicy-http/analyzer/analyzer.spicy:38:5-38:15)	tp://the.earth.li/~sgtatham/putty/0.64/x
+#close	2024-04-14-22-42-52

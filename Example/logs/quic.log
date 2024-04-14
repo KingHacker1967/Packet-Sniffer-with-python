@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	quic
+#open	2024-04-14-23-36-06
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	client_initial_dcid	client_scid	server_scid	server_name	client_protocol	history
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	string
+1713116771.299445	ClXO6M2s6518m5vmk6	2409:40f4:af:2544:f563:deab:3298:3427	40658	2600:1901:1:c36::	443	1	cee27e78b85221b8	(empty)	eee27e78b85221b8	spclient.wg.spotify.com	h3	ISiisH
+#close	2024-04-14-23-36-06

@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2024-04-14-22-42-52
+#fields	ts	fuid	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted	extracted_cutoff	extracted_size
+#types	time	string	string	addr	port	addr	port	string	count	set[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string	bool	count
+1429576913.038352	FZjUS57tUkGFTibv3	CXQ2oo2hPckGQJet2b	10.0.1.4	42084	212.13.197.229	80	HTTP	0	(empty)	text/html	-	0.017259	F	F	24434	-	0	0	F	-	-	-	-	-	-	-
+1429576913.316070	FVmqxq4aTW3zZaIVzj	CXQ2oo2hPckGQJet2b	10.0.1.4	42084	212.13.197.229	80	HTTP	0	(empty)	text/plain	-	0.000000	F	F	175	-	0	0	F	-	-	-	-	-	-	-
+1429576915.821836	FeinSs23tKYDc9dAgh	CATPLi2DNUzFcldcL4	10.0.1.4	51358	46.43.34.31	80	HTTP	0	(empty)	-	-	0.000000	F	F	0	0	0	0	F	-	-	-	-	-	-	-
+1429576915.882662	FATwjnighr28H7wda	CHlJhqPkcGWUq4Pb3	10.0.1.4	59659	178.62.49.34	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	169	169	0	0	F	-	-	-	-	-	-	-
+1429576916.004724	FNq8fn4y4MsCjFfoC9	CGTfyx3jiwiisPFKGc	10.0.1.4	59700	178.62.126.102	80	HTTP	0	PE	application/x-dosexec	-	0.216505	F	F	1182190	1182190	0	0	F	-	-	-	-	-	-	-
+#close	2024-04-14-22-42-52
